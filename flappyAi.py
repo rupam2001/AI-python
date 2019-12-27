@@ -224,7 +224,7 @@ while not game_over:
     drawpipies()
     if score>bound:
         fps+=5
-        bound+=bound//2
+        bound+=bound+1
     pygame.display.update()
     clock.tick(fps)
 pygame.quit()
